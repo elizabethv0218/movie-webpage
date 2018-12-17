@@ -1,0 +1,23 @@
+* {
+    background-color: #D6F6DD; /*green*/
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    padding: 0px 20%;
+}
+
+.intro h3, .intro h2, .intro h6, .intro p {
+    background-color: #DAC4F7; /*purple*/
+}
+
+.reviews h2, .reviews h4, .reviews p, .reviews strong, .reviews img {
+    background-color: #F4989C; /*red*/
+}
+
+.tickets h2, .tickets p {
+    background-color: #EBD2B4; /*orange*/
+}
