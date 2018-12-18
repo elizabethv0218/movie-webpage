@@ -3,7 +3,7 @@
     font-family: Varela Round;
 }
 
-h1, h2 {
+h1, h2, #pun {
     text-align: center;
 }
 
@@ -11,11 +11,11 @@ div {
     padding: 0px 20%;
 }
 
-.intro, .intro h3, .intro h2, .intro h6, .intro p {
+.intro, .intro h3, .intro h2, .intro h6, .intro p, .intro span {
     background-color: #DAC4F7; /*purple*/
 }
 
-.reviews, .reviews h2, .reviews h4, .reviews p, .reviews strong, .reviews img {
+.reviews, .reviews h2, .reviews h4, .reviews p, .reviews strong, .reviews img, .reviews i {
     background-color: #F4989C; /*red*/
 }
 
@@ -41,7 +41,7 @@ div {
 }
 
 strong {
-    color: #2755FF;
+    color: #2755FF; /*blue*/
 }
 
 #title {
