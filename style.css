@@ -3,24 +3,23 @@
     font-family: Varela Round;
 }
 
-h1, h2, #pun {
-    text-align: center;
-}
-
-div {
-    padding: 0px 20%;
-}
-
-.intro, .intro h3, .intro h2, .intro h6, .intro p, .intro span {
+.intro, .intro * {
     background-color: #DAC4F7; /*purple*/
 }
 
-.reviews, .reviews h2, .reviews h4, .reviews p, .reviews strong, .reviews img, .reviews i {
+.tickets, .tickets * {
+    background-color: #EBD2B4; /*orange*/
+}
+
+.reviews, .reviews * {
     background-color: #F4989C; /*red*/
 }
 
-.tickets, .tickets h2, .tickets p {
-    background-color: #EBD2B4; /*orange*/
+.button {
+    background-color: #ACECF7; /*light blue*/
+    width: 150px;
+    height: 50px;
+    margin-left: 23%;
 }
 
 .yahia {
@@ -31,20 +30,29 @@ div {
     border-radius: 50%;
 }
 
-.left {
+.warning, span {
+    color: red;
+    font-size: 200%;
+}
+
+.left, form {
     margin-left:25%;
 }
 
-.warning {
-    color: red;
-    text-align: center;
-}
-
-strong {
+.reviews strong {
     color: #2755FF; /*blue*/
 }
 
+div {
+    padding: 0px 20%;
+}
+
+h1, h2, .warning, #pun {
+    text-align: center;
+}
+
 #title {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 70px;
 }
