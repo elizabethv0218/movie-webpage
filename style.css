@@ -1,22 +1,30 @@
 * {
-    background-color: #D6F6DD; /*green*/
+    background-color: #D6F6DD;
+    /*green*/
     font-family: Varela Round;
 }
 
-.intro, .intro * {
-    background-color: #DAC4F7; /*purple*/
+.intro,
+.intro * {
+    background-color: #DAC4F7;
+    /*purple*/
 }
 
-.tickets, .tickets * {
-    background-color: #EBD2B4; /*orange*/
+.tickets,
+.tickets * {
+    background-color: #EBD2B4;
+    /*orange*/
 }
 
-.reviews, .reviews * {
-    background-color: #F4989C; /*red*/
+.reviews,
+.reviews * {
+    background-color: #F4989C;
+    /*red*/
 }
 
 .button {
-    background-color: #ACECF7; /*light blue*/
+    background-color: #ACECF7;
+    /*light blue*/
     width: 150px;
     height: 50px;
     margin-left: 23%;
@@ -30,24 +38,30 @@
     border-radius: 50%;
 }
 
-.warning, span {
+.warning,
+span {
     color: red;
     font-size: 200%;
 }
 
-.left, form {
-    margin-left:25%;
+.left,
+form {
+    margin-left: 25%;
 }
 
 .reviews strong {
-    color: #2755FF; /*blue*/
+    color: #2755FF;
+    /*blue*/
 }
 
 div {
     padding: 0px 20%;
 }
 
-h1, h2, .warning, #pun {
+h1,
+h2,
+.warning,
+#pun {
     text-align: center;
 }
 
